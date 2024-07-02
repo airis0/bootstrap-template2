@@ -1,0 +1,65 @@
+body {
+  padding-top: 56px;
+}
+
+header{
+  height: 500px;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+#about{
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 4% 0 5% 0;
+}
+
+#table-block {
+  text-align: center;
+  margin: 5% 0 5% 0;
+}
+
+#table-block table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table , td, th {
+  border: 1px solid #595959;
+  border-collapse: collapse;
+}
+  
+td ,th {
+  padding: 10px;
+}
+
+.service-content{
+  text-align: center;
+  background-color: teal;
+}
+
+#services > section > p {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 4% 0 5% 0;
+}
+
+.contents-title {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+#contact-form-section{
+  margin-top: 5%;
+}
+
+form > label > input, textarea{
+  width:300px;
+}
